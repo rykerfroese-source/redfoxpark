@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Fox Park</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #121212;
+        color: #e4e4e4;
+    }
+
+    header {
+        background: linear-gradient(135deg, #1a1a1a, #222);
+        text-align: center;
+        padding: 90px 20px;
+        border-bottom: 3px solid #cc5500;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 50px;
+        letter-spacing: 4px;
+        color: #cc5500;
+    }
+
+    header p {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #bbb;
+    }
+
+    section {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 50px;
+        background: #1e1e1e;
+        border-radius: 25px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+        position: relative;
+    }
+
+    /* Cool corner accent */
+    section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 80px;
+        background: #cc5500;
+        border-bottom-left-radius: 100%;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #cc5500;
+    }
+
+    .content-box {
+        padding: 20px;
+        background: #2a2a2a;
+        border-radius: 15px;
+        border: 1px solid #333;
+        min-height: 100px;
+        color: #ccc;
+    }
+
+    .owners {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .owner-card {
+        background: #2a2a2a;
+        padding: 15px 30px;
+        border-radius: 50px; /* rounded pill corners */
+        border: 1px solid #cc5500;
+        color: #cc5500;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+
+    .owner-card:hover {
+        background: #cc5500;
+        color: #121212;
+    }
+
+    .call-section {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .call-button {
+        display: inline-block;
+        padding: 14px 40px;
+        background: #cc5500;
+        color: #121212;
+        font-weight: 600;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+    .call-button:hover {
+        background: #e06500;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        margin-top: 70px;
+        color: #777;
+        font-size: 14px;
+        border-top: 1px solid #222;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>RED FOX PARK</h1>
+    <p>Ride Fast. Ride Smart. Ride Together.</p>
+</header>
+
+<section>
+    <h2>About The Park</h2>
+    <div class="content-box">
+        <!-- Add your information here later -->
+        Type your bike park facts here...
+    </div>
+</section>
+
+<section>
+    <h2>Park Facts</h2>
+    <div class="content-box">
+        • Trails:<br>
+        • Jumps:<br>
+        • Rules: NO vandalizing. Must ask for permission.<br>
+    </div>
+</section>
+
+<section>
+    <h2>Need Help? Talk To:</h2>
+
+    <div class="owners">
+        <div class="owner-card">Ryker</div>
+        <div class="owner-card">Riley</div>
+
+    </div>
+
+    <div class="call-section">
+        <a href="tel:+5016700812" class="call-button">
+            Call +###############
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Red Fox Park
+</footer>
+
+</body>
+</html>
